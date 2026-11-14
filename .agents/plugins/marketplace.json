@@ -1,0 +1,32 @@
+{
+  "name": "stackserve-marketplace",
+  "version": "0.1.0",
+  "description": "Workload-aware cloud stack advisor plugins for Codex.",
+  "owner": {
+    "name": "Kaung Zaw Thant"
+  },
+  "interface": {
+    "displayName": "StackServe"
+  },
+  "plugins": [
+    {
+      "name": "stackserve",
+      "version": "0.1.0",
+      "description": "Workload-aware cloud stack advisor with deterministic decimal pricing, compatibility validation, cited provider docs, and setup bundles.",
+      "author": {
+        "name": "Kaung Zaw Thant"
+      },
+      "homepage": "https://stackserve.net",
+      "repository": "https://github.com/kztJames01/StackServe",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

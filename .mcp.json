@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "stackserve": {
+      "type": "http",
+      "url": "https://mcp.stackserve.net/mcp"
+    }
+  }
+}

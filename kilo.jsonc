@@ -1,0 +1,9 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "mcp": {
+    "stackserve": {
+      "type": "remote",
+      "url": "https://mcp.stackserve.net/mcp"
+    }
+  }
+}
